@@ -1,5 +1,5 @@
 ### Link: https://leetcode.com/problems/longest-turbulent-subarray/description/
-```
+
 class Solution:
     def maxTurbulenceSize(self, arr: List[int]) -> int:
 
@@ -28,4 +28,3 @@ class Solution:
                     j=i-1
                 prev=""
         return res
-```
