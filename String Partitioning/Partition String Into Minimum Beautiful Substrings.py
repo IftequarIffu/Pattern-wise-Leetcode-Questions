@@ -4,15 +4,19 @@ class Solution:
     def minimumBeautifulSubstrings(self, s: str) -> int:
         
         def isValid(s):
-            
+
+            # String must not have leading zeros
             if(s[0]=='0'):
                 return False
-            
+
+
+            # Converting string to decimal
             ans=0
             for i in range(len(s)-1,-1,-1):
                 if(s[i]=='1'):
                     ans=ans+2**(len(s)-i-1)
-            # print("Decimal: ",ans)
+
+            # Check if decimal is a power of 5
             while(True):
                 if(ans==1):
                     break
