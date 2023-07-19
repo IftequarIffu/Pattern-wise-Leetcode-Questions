@@ -1,5 +1,6 @@
 # Link for useful articles on all patterns
 https://leetcode.com/discuss/general-discussion/665604/important-and-useful-links-from-all-over-the-leetcode
+https://liuzhenglaichn.gitbook.io/algorithm/
 
 # Pattern-wise-Leetcode-Questions
 
