@@ -1,3 +1,6 @@
+# Link for useful articles on all patterns
+https://leetcode.com/discuss/general-discussion/665604/important-and-useful-links-from-all-over-the-leetcode
+
 # Pattern-wise-Leetcode-Questions
 
 1) Monotonic Stack: https://leetcode.com/discuss/study-guide/2347639/A-comprehensive-guide-and-template-for-monotonic-stack-based-problems
