@@ -1,6 +1,8 @@
 # Problem Link: https://leetcode.com/problems/dungeon-game/description/
 # YT Video Link: https://www.youtube.com/watch?v=bya4Vow1Eq8
 
+# Notes:
+# start = final - dungeon[i][j]
 class Solution:
     def calculateMinimumHP(self, dungeon: List[List[int]]) -> int:
 
