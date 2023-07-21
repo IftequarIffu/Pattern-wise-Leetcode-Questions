@@ -17,7 +17,7 @@ class Solution:
                         final=dp[i][j+1]
                         start=final-dungeon[i][j]
                         # print(start,final)
-                        dp[i][j] = (start) if start>=0 else 1
+                        dp[i][j] = (start) if start>0 else 1
                     elif(j==n-1):
                         final=dp[i+1][j]
                         start=final-dungeon[i][j]
